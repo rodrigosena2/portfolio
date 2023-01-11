@@ -47,10 +47,8 @@ li {
 
 li a {
   text-decoration: none;
-  
-}
-li a:visited {
   color: white;
+  
 }
 
 li:hover {
@@ -58,10 +56,9 @@ li:hover {
   transition: 0.5s;
 }
 
-
-
-li a:visited {
-  color: white;
+li a:hover {
+  color: rgb(144, 20, 144);
+  transition: 0.5s;
 }
 
 .meu-nome {
