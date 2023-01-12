@@ -244,3 +244,49 @@ footer p {
   transition: 0.5s;
 }
 
+/* Responsividade do site para telas pequenas */
+
+@media (max-width: 480px) {
+  header {
+    display: flex;
+    width: 100vw;
+    margin: auto;
+    font-size: 50%;
+  }
+
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  section {
+    display: block;
+    width: 100vw;
+  }
+
+  section img{
+    width: 250px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    height: 500px;
+  
+  }
+
+  .card h5 {
+    padding: 20px;
+  }
+  .card p {
+    font-size: 88%;
+  }
+
+  .meu-nome {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+  }
+}
